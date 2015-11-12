@@ -149,7 +149,7 @@ a {
     left: 12px;
 	margin-top:10px;
 
-    background-color: #CE010D;
+    background-color: #2B3894;
     color: #fff;
     border-radius: 100%;
     padding: 1px 10px;
@@ -176,7 +176,7 @@ a {
   background-position: 50% 0px;
   background-size: cover;
   background-repeat: no-repeat;*/
-  border:solid #CE010D;
+  border:solid #2B3894;
 
 }
 .slide.bg2 {
@@ -215,7 +215,7 @@ a {
   background-color: #f7f7f7;
 }
 .list-item.highlighted {
-  border-left: 3px solid #CE010D;
+  border-left: 3px solid #2B3894;
 }
 .icon-list {
   display: inline-block;
@@ -228,7 +228,7 @@ a {
   text-align: center;
 }
 .icon-list.highlighted {
-  color: #CE010D;
+  color: #2B3894;
 }
 .title-list {
   display: inline-block;
@@ -249,7 +249,7 @@ a {
 .nav-menu-header {
   height: 137px;
   padding-top: 50px;
-  border-bottom: solid 1px #FF0000;
+  border-bottom: solid 1px #F79510;
 }
 .nav-menu-link {
   display: block;
@@ -260,7 +260,7 @@ a {
   text-decoration: none;
 }
 .nav-menu-link:active {
-  color: #CE010D;
+  color: #2B3894;
 }
 .nav-menu-link.last {
   border-bottom-style: none;
