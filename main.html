@@ -95,10 +95,10 @@ window.plugin.notification.local.add({
 		//alert("loading");
 	//$('#show-display').load('test.html');
 	//$('#moshow').load('modal-show.php');
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/offerslides.php');
-$('#noteno').load('http://rewardsboxnigeria.com/demodiscount/mobize/notifycount.php');
-$('#nmessage').load('http://rewardsboxnigeria.com/demodiscount/mobize/nmessage.php');
-$('#notification').load('http://rewardsboxnigeria.com/demodiscount/mobize/notification.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/offerslides.php');
+$('#noteno').load('http://rewardsboxnigeria.com/demodiscount/mobiv/notifycount.php');
+$('#nmessage').load('http://rewardsboxnigeria.com/demodiscount/mobiv/nmessage.php');
+$('#notification').load('http://rewardsboxnigeria.com/demodiscount/mobiv/notification.php');
 
 
 $('#sett').click(function(){
@@ -143,7 +143,7 @@ $('#promoclick').click(function(){
 
 //$('.loading-mask').removeClass('stop-loading');
 
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/promo.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/promo.php');
 
 //$('.loading-mask').addClass('stop-loading');
 //return false;
@@ -153,7 +153,7 @@ $('#vouch').click(function(){
 
 //$('.loading-mask').removeClass('stop-loading');
 
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/voucher.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/voucher.php');
 
 //$('.loading-mask').addClass('stop-loading');
 
@@ -165,7 +165,7 @@ $('#tra').click(function(){
 
 $('.loading-mask').removeClass('stop-loading');
 
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/transaction.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/transaction.php');
 
 $('.loading-mask').addClass('stop-loading');
 
@@ -176,7 +176,7 @@ $('.loading-mask').addClass('stop-loading');
 
 
 $('#notifica').click(function(){
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/notification.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/notification.php');
 //return false;
 });
 
@@ -193,7 +193,7 @@ $('#show-display').load('contact.html');
 
 
 $('#pro1').click(function(){
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/profile.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/profile.php');
 
 //return false;
 
@@ -229,7 +229,7 @@ $('#show-display').on('click', '.shwpr', function(){
 
 //$('.loading-mask').removeClass('stop-loading');
 
-$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/promo.php');
+$('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/promo.php');
 
 //$('.loading-mask').addClass('stop-loading');
 //return false;
@@ -263,7 +263,7 @@ else {
 
 	$.ajax({
 									type: "POST",
-									url: "http://rewardsboxnigeria.com/demodiscount/mobize/editmemberscript.php",
+									url: "http://rewardsboxnigeria.com/demodiscount/mobiv/editmemberscript.php",
 									data: {fname:fname, mname:mname, lname:lname, addy:addy},
 
 									success: function(msg){
@@ -292,15 +292,15 @@ $('#wpp').click (function() {
 //alert(id);
 $.ajax({
 									type: "POST",
-									url: "http://rewardsboxnigeria.com/demodiscount/mobize/nmessage.php",
+									url: "http://rewardsboxnigeria.com/demodiscount/mobiv/nmessage.php",
 									data: {id:id},
 
 									success: function(msg){
 									if (msg.success == false) {
 									$("#warn").html("There was an error submitting the form. Please try again.");
 									} else {
-										$('#noteno').load('http://rewardsboxnigeria.com/demodiscount/mobize/notifycount.php');
-                                        $('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobize/notification.php');
+										$('#noteno').load('http://rewardsboxnigeria.com/demodiscount/mobiv/notifycount.php');
+                                        $('#show-display').load('http://rewardsboxnigeria.com/demodiscount/mobiv/notification.php');
 
 										}
 									//$('#main_section').html('<img src="images/loading.gif" />');
@@ -328,7 +328,7 @@ var storeid = $(this).attr('id');
 //alert(storeid);
 $.ajax({
 									type: "POST",
-									url: "http://rewardsboxnigeria.com/demodiscount/mobize/genvoucher.php",
+									url: "http://rewardsboxnigeria.com/demodiscount/mobiv/genvoucher.php",
 									data: {storeid:storeid},
 
 									success: function(msg){
@@ -363,7 +363,7 @@ $('#logout').click(function(){
 	//alert("logpout");
 $.ajax({
 									//type: "POST",
-									url: "http://rewardsboxnigeria.com/demodiscount/mobize/logout3.php",
+									url: "http://rewardsboxnigeria.com/demodiscount/mobiv/logout3.php",
 									//data: $("#contact").serialize(),
 									//data: {name:name, email:email, message:message},
 
