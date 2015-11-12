@@ -6,13 +6,13 @@
         id        = "com.zenith.loyalty"
         version   = "1.0.0">
 
-    <name>Zenith Insurance loyalty</name>
+    <name>Visa loyalty</name>
 
     <description>
-        Zenith Insurance a lifestyle app that connects you to partners around the world offering you discounts and gift
+        Visa loyalty is a lifestyle app that connects you to partners around the world offering you discounts and gift
     </description>
 
-    <author href="http://zenithinsurance.com.ng" email="info@zenithinsurance.com.ng">
+    <author href="http://www.visa.com.ng/" email="info@visa.com.ng">
         Zenith Insurance
     </author>
 	
@@ -31,8 +31,8 @@
     
     
     <!--<gap:plugin name="org.apache.cordova.dialogs" source="npm" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" />
-    <gap:plugin name="org.apache.cordova.splashscreen" source="npm" /> -->
+    <gap:plugin name="org.apache.cordova.inappbrowser" source="npm" /> -->
+    <gap:plugin name="org.apache.cordova.splashscreen" source="pgb" />
  
     
     <gap:plugin name="de.appplant.cordova.plugin.local-notification" source="pgb" version="0.8.1" />
@@ -49,11 +49,11 @@
 
     <!-- Define app splash screen for each platform. -->
 	
-	 <!--<gap:splash src="large.jpg"  gap:platform="android" gap:density="ldpi" />
-    <gap:splash src="large.jpg"  gap:platform="android" gap:density="mdpi" />
-    <gap:splash src="large.jpg"  gap:platform="android" gap:density="hdpi" />
-    <gap:splash src="large.jpg" gap:platform="android" gap:density="xhdpi" />
-    <gap:splash src="normal.jpg"         gap:platform="blackberry" />
+    <gap:splash src="zlogo.png"  gap:platform="android" gap:density="ldpi" />
+    <gap:splash src="zlogo.png"  gap:platform="android" gap:density="mdpi" />
+    <gap:splash src="zlogo.png"  gap:platform="android" gap:density="hdpi" />
+    <gap:splash src="zlogo.png" gap:platform="android" gap:density="xhdpi" />
+    <!-- <gap:splash src="normal.jpg"         gap:platform="blackberry" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait.png"    gap:platform="ios"     width="320" height="480" />
     <gap:splash src="res/screen/ios/screen-iphone-portrait-2x.png" gap:platform="ios"     width="640" height="960" />
     <gap:splash src="res/screen/ios/screen-ipad-portrait.png"      gap:platform="ios"     width="768" height="1024" />
