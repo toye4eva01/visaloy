@@ -1143,13 +1143,13 @@ input[type=text]:focus, textarea:focus {
   overflow-y: scroll;
   -webkit-overflow-scrolling: touch;
 }
-.backgroundpg1{
-	background-image:url(images/bg.png);
+/*.backgroundpg1{
+	background-image:url(../images/bg.png);
 	background-repeat:no-repeat;
 	background-position:center;
 
 
-}
+}*/
 .menu-btn div {
 	position: absolute;
 	left: 100%;
